@@ -1,0 +1,61 @@
+*{
+    font-family: sans-serif;
+}
+body
+{
+    background-image: url(https://images.wallpapersden.com/image/download/4k-natural-gradient_a2xsZmiUmZqaraWkpJRma2VlrW5lZQ.jpg);
+    background-repeat: no-repeat;
+    background-size: 1390px;
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal
+{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    border: 2px solid #4F2531;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 200px;
+}
+.inputs
+{
+    display: flex;
+}
+.cells
+{
+    display: flex;
+    flex-direction: column;
+    margin:0  8px;
+    border-radius: 2px;
+}
+label
+{
+    font-size: 20px;
+}
+.inputs
+{
+    border-radius: 7px;
+    padding: 10px;
+    height: 3rem;
+    width:auto;
+    margin-top: 4px;
+    outline: none;
+}
+.btn
+{
+    height: 3rem;
+    width: 10rem;
+    padding: 4px;
+    border: 2px solid #C86260;
+    background: #F57D6D;
+    color: white;
+    font-size: 15px;
+    margin-top: 4px;
+    border-radius: 20px;
+}
